@@ -1,0 +1,211 @@
+header{
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 20pt;
+	text-align: center;
+}
+
+main{
+	font-size: 18pt;
+	margin: 20px;
+}
+
+#mainedit{
+	text-align: center; /** centers the main tag text**/
+}
+
+h1{
+	background-image: url(../img/image4.jpg);
+	background-size: cover;
+	background-position: center;
+	
+	font-size: 28pt;
+	line-height: 200%;
+	font-family: Georgia, "Times New Roman", serif; 
+	text-indent: 1em;
+	background-color: #aeaed4; color: #FFF;
+	text-shadow: 3px 3px 3px #0000FF;
+	border-width: 3px;
+	border-style: ridge;
+	border-color: #000000;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #828282;
+	padding: 10px;
+	margin: 20px;
+
+}
+
+h3{
+	background-color: #aeaed4; color: #FFF;
+	text-shadow: 3px 3px 3px black;
+	border-width: 3px;
+	border-style: ridge;
+	border-color: #000000;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+p{
+	font-size: 15pt;
+	margin: 30px;
+}
+
+body{
+	background-color: #e6e6fa; color: #191950;
+}
+
+nav{
+	background-image: url(../img/image4.jpg);
+	background-size: cover;
+	background-position: center;
+	
+	font-size: 18pt;
+	font-family: Georgia, "Times New Roman", serif; 
+	text-indent: 1em;
+	background-color: #aeaed4; color: #FFF;
+	text-shadow: 3px 3px 5px #0000FF;
+	border-width: 3px;
+	border-style: ridge;
+	border-color: #000000;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #828282;
+	margin: 20px;
+	padding: 60px;
+	text-align: center;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav li{
+	display: inline;
+}
+
+/* the styles for the navigation menu */
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#nav_menu ul li {
+	float: left;
+}
+
+#nav_menu ul li a {
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav_menu ul ul li {
+	float: none;
+}
+
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+
+
+footer{
+	text-align: center;
+	margin-top: 50px;
+}
+
+a{
+  color: inherit; 
+  color: #FFF;
+  text-decoration: none;	
+}
+
+#class{
+	margin: 20px;     /** Hobbies Page div tag**/
+}	
+
+a:hover{
+	font-weight: bold;
+}
+
+#links1{
+	padding-right: 40px; /** spacing for nav links**/
+}
+
+#links2{
+	padding-right: 40px; /** spacing for nav links**/
+}
+
+#links3{
+	padding-right: 40px; /** spacing for nav links**/
+}
+
+#links4{
+	padding-right: 40px; /** spacing for nav links**/
+}
+
+#links5{
+	padding-right: 40px; /** spacing for nav links**/
+}
+
+#copylink{
+	padding-right: 10px;
+	color: #191950;         /** for the footer nav bar**/
+	text-decoration: underline;	
+}
+
+#list{
+	list-style-position: inside;         /** for the earth bullet points**/
+	list-style-image: url(../img/globe-icon.png);
+}
+
+table{
+	border-collapse: collapse;    /** for the table borders**/
+}
+
+tbody th{
+	text-align: center;
+	background-color: #aeaed4; color: #FFF;
+	text-shadow: 3px 3px 3px black;             /** for the table headers**/
+	padding: 20px;
+	border: 3px solid black;
+}
+
+tbody td{
+	text-align: center;
+	padding: 20px;  
+	border: 3px solid black;	/** for the table cells**/
+}
+
+caption{
+	font-weight: bold;
+	padding: 10px;              /** for the table title**/
+	}
+	
+fieldset{
+	margin-top: 15px;
+}
+
+legend{
+	font-weight: bold;
+}
+
+.error{
+	font-family: Arial, sans-serif;
+	font-style: italic; font-size: 12pt;
+	color: #FF0000; margin-left: 1em;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Contact Us </title>
+	<link rel="stylesheet" href="css/Style.css">
+	<link rel="icon" href="img/favicon.ico" type="favicon.ico">
+	<meta charset="UTF-8">
+	<meta name="description" content="Resume and Info on Derek VanCaneghem">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Derek VanCaneghem">
+	<script src= "http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src= "http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.js"></script>
+	<script src= "js/javascript.js"></script>
+</head>
+
+<nav>
+	<ul>
+		<li><a id="links1" href="index.html">Home</a></li> 
+		<li><a id="links2" href="whoami.html">Who Am I</a></li> 
+		<li><a id="links3" href="Hobbies.html">Hobbies</a></li>
+		<li><a id="links5" href="aboutme.html">About Me</a></li>
+		<li><a id="links4" href="contact.html">Contact Us</a></li>
+	</ul>
+</nav>
+	
+<body>
+	<header>
+		<h1>Contact Us</h1>
+	</header>
+
+	<main>
+	
+	<form method="post" action="http://rvccmccs01.raritanval.edu/~scaruso/cisy225/contact_form.php">
+	<fieldset>
+		<legend>Visitor Information</legend>
+		<label>First Name: <input  class= "required" name= "nameFirst" type="text" ></label><br>
+		<label>Last Name: <input class= "required" name= "nameLast" type="text" ></label><br>
+		<label>Do You Want A Response?</label><br>
+		<label>Yes: <input name= "preference" type="radio" value="yes" required></label><br>
+		<label>No: <input name= "preference" type="radio" value="no" required></label><br>
+		<label>Email: <input class= "required email" name= "email" type="email" ></label>
+	</fieldset>
+	
+	<fieldset>
+		<legend>Comments</legend>
+		<textarea class= "required" name= "comments" rows="6" cols="75" placeholder="Enter Comments Here"></textarea>
+	</fieldset>
+	<input type="submit" value="Submit">
+	
+	</form>
+	
+	</main>
+	
+	<footer>
+		&copy; 2019 Derek VanCaneghem <br><a id="copylink" href="#">Terms of Service</a> <a id="copylink" href="#">Privacy Statement</a>
+		<br><br>
+		
+		<a id="copylink" href="index.html">Home</a>
+		<a id="copylink" href="whoami.html">Who Am I</a> 
+		<a id="copylink" href="Hobbies.html">Hobbies</a>
+		<a id="copylink" href="aboutme.html">About Me</a>
+		<a id="copylink" href="contact.html">Contact Us</a>
+		
+	</footer>
+</body>
+</html>
