@@ -1,27 +1,38 @@
 /*DEVELOPER: Derek VanCaneghem, IS117-002, Spring 2019 */
 
-header{
+header{ /**The h1 headers**/
 	font-family: Georgia, "Times New Roman", serif;
 	font-size: 20pt;
 	text-align: center;
 }
 
 main{
-	font-size: 18pt;
+	font-size: 22pt;       
 	margin: 20px;
 }
 
 #mainedit{
-	text-align: center; /** centers the main tag text**/
+	text-align: center; /** for the main on the index/home page**/
 }
 
-h1{
+nav{
+	margin-bottom: 30px;
+}
+
+nav a{
+	font-size: 24pt;
+}
+
+p{
+	font-size: 22pt;
+	margin: 30px;
+}
+
+h1{ /**Big headers with titles of pages pic background**/
 	background-image: url(../img/image4.jpg);
 	background-size: cover;
 	background-position: center;
 	
-	font-size: 28pt;
-	line-height: 200%;
 	font-family: Georgia, "Times New Roman", serif; 
 	text-indent: 1em;
 	background-color: #aeaed4; color: #FFF;
@@ -31,12 +42,12 @@ h1{
 	border-color: #000000;
 	border-radius: 15px;
 	box-shadow: 5px 5px 5px #828282;
-	padding: 10px;
+	padding: 20px;
 	margin: 20px;
 
 }
 
-h3{
+h3{ /**Smaller headers on Hobbies.html page**/
 	background-color: #aeaed4; color: #FFF;
 	text-shadow: 3px 3px 3px black;
 	border-width: 3px;
@@ -46,24 +57,15 @@ h3{
 	padding: 20px;
 }
 
-p{
-	font-size: 15pt;
-	margin: 30px;
-}
-
-body{
-	background-color: #e6e6fa; color: #191950;
-}
-
 footer{
 	text-align: center;
 	margin-top: 50px;
+	font-size: 18pt;
 }
 
-a{
-  color: inherit !important; 
-  color: #FFF;
-  text-decoration: none;	
+#cardjawn{
+	text-align: center;        /**Centers the card on home/index page**/
+    display: inline-block;
 }
 
 #class{
@@ -72,26 +74,6 @@ a{
 
 a:hover{
 	font-weight: bold;
-}
-
-#links1{
-	padding-right: 40px; /** spacing for nav links**/
-}
-
-#links2{
-	padding-right: 40px; /** spacing for nav links**/
-}
-
-#links3{
-	padding-right: 40px; /** spacing for nav links**/
-}
-
-#links4{
-	padding-right: 40px; /** spacing for nav links**/
-}
-
-#links5{
-	padding-right: 40px; /** spacing for nav links**/
 }
 
 #copylink{
@@ -128,16 +110,10 @@ caption{
 	padding: 10px;              /** for the table title**/
 	}
 	
-fieldset{
+fieldset{                     /** for the contact page**/
 	margin-top: 15px;
 }
 
-legend{
+legend{                  /** for the contact page**/
 	font-weight: bold;
-}
-
-.error{
-	font-family: Arial, sans-serif;
-	font-style: italic; font-size: 12pt;
-	color: #FF0000; margin-left: 1em;
 }
