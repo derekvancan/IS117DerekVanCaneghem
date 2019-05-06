@@ -54,35 +54,7 @@ p{
 body{
 	background-color: #e6e6fa; color: #191950;
 }
-/*
-nav{
-	background-image: url(../img/image4.jpg);
-	background-size: cover;
-	background-position: center;
-	
-	font-size: 18pt;
-	font-family: Georgia, "Times New Roman", serif; 
-	text-indent: 1em;
-	background-color: #aeaed4; color: #FFF;
-	text-shadow: 3px 3px 5px #0000FF;
-	border-width: 3px;
-	border-style: ridge;
-	border-color: #000000;
-	border-radius: 15px;
-	box-shadow: 5px 5px 5px #828282;
-	margin: 20px;
-	padding: 60px;
-	text-align: center;
-}
 
-nav ul{
-	list-style-type: none;
-}
-
-nav li{
-	display: inline;
-}
-*/
 footer{
 	text-align: center;
 	margin-top: 50px;
