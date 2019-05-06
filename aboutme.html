@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- DEVELOPER: Derek VanCaneghem, IS117-002, Spring 2019 -->
 <html lang="en">
 <head>
 	<title> About Me </title>
@@ -12,17 +13,27 @@
 </head>
 
 <nav id="nav_menu">
-	<ul>
-		<li><a id="links1" href="index.html">Home</a></li> 
-		<li><a id="links2" href="whoami.html">Who Am I</a></li> 
-		<li><a id="links3" href="Hobbies.html">Hobbies</a></li>
-		<li><a id="links5" href="aboutme.html">About Me</a> <!-- dropdown for resume, 2 tier navigation -->
-			<ul>
-				<li><a href="#">Resume</a></li>
-			</ul>
-		</li>
-		<li><a id="links4" href="contact.html">Contact Us</a></li>
-	</ul>
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="index.html">Home</a>
+  </li>
+  <li class="nav-item">
+	<a class="nav-link" href="whoami.html">Who Am I</a>
+  </li>
+  <li class="nav-item">
+	<a class="nav-link" href="Hobbies.html">Hobbies</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Me</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="aboutme.html">About Me</a>
+      <a class="dropdown-item" href="resume.html">Resume</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="contact.html">Contact Us</a>
+  </li>
+</ul>
 </nav>
 	
 <body>
@@ -47,9 +58,6 @@
 	
 	<footer>
 	
-		<a href="https://upload.wikimedia.org/wikipedia/commons/a/ae/El_jard%C3%ADn_de_las_Delicias%2C_de_El_Bosco.jpg"><img src="img/image.jpg" width="500" alt="Garden of Earthly Delights"></a>
-		<br><br>
-
 		&copy; 2019 Derek VanCaneghem <br><a id="copylink" href="#">Terms of Service</a> <a id="copylink" href="#">Privacy Statement</a>
 		<br><br>
 		
