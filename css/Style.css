@@ -6,6 +6,10 @@ header{ /**The h1 headers**/
 	text-align: center;
 }
 
+body{ 
+	background: #DCD7FF !important; 
+}
+
 main{
 	font-size: 22pt;       
 	margin: 20px;
